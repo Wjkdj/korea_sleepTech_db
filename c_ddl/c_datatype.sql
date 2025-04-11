@@ -13,7 +13,7 @@
     a) tinyint (1byte: 8bit)
     : -128 ~ 127
     EX) 나이, 성별코드, 성적 등
-    
+		
     b) smallint (2byte: 16bit)
     : -32,768 ~ 32,767
     EX) 사원 번호, 우편 번호 등

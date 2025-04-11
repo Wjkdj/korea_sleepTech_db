@@ -1,6 +1,6 @@
 ### c_ddl 폴더 >> b_ddl02 파일 생성
 
-# --- 데이베이스 ---
+# --- 데이터베이스 ---
 # 1. 생성(create)
 create database if not exists database_name;
 create database if not exists example;
