@@ -177,11 +177,17 @@ where
 # 연도 일치: year (컬럼명)
 # 월 일치: month (컬럼명)
 # 일 일치: day (컬럼명)
-# 연도 일치: year (컬럼명)
-# 연도 일치: year (컬럼명)
-# 연도 일치: year (컬럼명)
-# 연도 일치: year (컬럼명)
-# 연도 일치: year (컬럼명)
-# 연도 일치: year (컬럼명)
-# 연도 일치: year (컬럼명)
-# 연도 일치: year (컬럼명)
+select * from `members`
+where
+	year(join_date) = '2022';
+    
+# 시간: hour()
+# 분: minute()
+# 초: second()
+
+# cf) 현재 날짜나 시간을 기준으로 조회
+# curdate()
+# now()
+select * from `members`
+where
+	join_date < curdate();
